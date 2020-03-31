@@ -1,0 +1,101 @@
+Q: What is the generalization of the median?
+A: Quantile
+
+Q: What is the difference between ‘“long” and “wide” format data?
+A: Wide: categorical data is grouped in a single row, long: each row is an observation belonging to a particular category.
+
+Q: Technique used to sample based on a probability where each sample unit is a collection of a cluster element
+A: Cluster sampling
+
+Q: Name three supervised learning algorithms.
+A: Support Vector Machines, Regression, Naive Bayes, Decision Trees, Neural Networks, ect.
+
+Q: Name three unsupervised learning algorithms.
+A: Clustering, Anomaly Detection, Latent variable models, Neural Networks (Autoencoders), ect.
+
+Q: What is the type of machine learning algorithms used to draw inferences from labeled data?
+A: Suppervised Learning
+
+Q: What is the type of machine learning algorithms used to draw inferences from data with out labels?
+A: Unsuppervised Learning
+
+Q: Type of backpropagation where we use only a single training example for calculation of the gradient and update parameters.
+A: Stochastic Gradient Descent
+
+Q: Type of backpropagation where we use the whole dataset to perform a single step.
+A: Batch Gradient Descent
+
+Q: Type of backpropagation where we use a fixed number of training examples which is lees than the actual dataset to perform a calculation of the gradient
+A: Mini-batch Gradient Descent
+
+Q: Name three different deep learning frameworks
+A: TensorFlow, PyTorch, Keras, Caffe, ect
+
+Q: Graphical representation of the contrast between true positives and false positives rates at various thresholds.
+A: ROC curve
+
+Q: Name three types of kernels in SVM:
+A: Linear, polynomial, radical, sigmoid
+
+Q: What is prunning in a decision tree?
+A: When we remove the sub-nodes of the decision tree.
+
+Q: What is ensemble learning?
+A: Combining induvidual models together with the purpose of improving the predictive power of the model.
+
+Q: Would you use k-fold cross validation on time series data? Explain.
+A: No, you should be aware to the fact that a time series is not randomly distributed data.
+
+Q: What is the process of adding tunning parameters to a model to induce smothness in order to prevent overfitting?
+A: Regularisation
+
+Q: How is the creator of GANs architecture?
+A: Ian Goodfellow
+
+Q: What two parameters defined a normal distribution?
+A: Its mean and its standard deviation
+
+Q: In a normal distribution which parameter indicates where the bell is centered?
+A: The mean
+
+Q: In a normal distribution which parameter indicates how wide is the bell?
+A: The standard deviation
+
+Q: What is count encoding?
+A: Count encoding replaces each categorical value with the number of times it appears in the dataset.
+
+Q: What is one hot encoding?
+A:
+
+Q: What is target encoding?
+A: Target encoding replaces a categorical value with the average value of the target for that value of the feature.
+
+Q: What is data leakage?
+A: When information from outside the training dataset is used to create the model. For expample, including any information from the validation or test sets into the model.
+
+Q: Imagine you are applying a desicion tree based model to a numerical dataset and you run a experiment where you scale the features. What model would give the best results the original or the scaleted one?
+A: They should give the same result because tree-based models are scale invariant.
+
+Q: What is the difference between L1 (Lasso) and L2 (Ridge) regularization)
+A: L1 penalizes the absolute magnitude of the coefficients and L2 penalizes the square of the coefficients.
+
+Q: What is the difference of and nominal and ordinal feature?
+A: Nominal data assigns names to each data point without placing it in some sort of order, ex: pass, fail. And ordinal data groups data according to some sort of ranking system: it orders the data, ex: grades A, B, C, D, E and F
+
+Q: What does high and low cardinality mean?
+A: High cardinality refers to columns with values that are very uncommon or unique, example: email addresses, or user names. And low cardinality: refers to columns with few unique values, example: status flags, boolean values.
+
+Q: What is a confusion matrix?
+A: A confusion matrix lets you see for a given model how your predictions compare with the actual results. It’s a 2x2 grid that has four parts: the number of true positives, false positives, true negatives, and false negatives.
+
+Q: Confusion Matrix should be used for supervised or unsupervised learning problems?
+A: Supervised
+
+Q: What is R-squared?
+A: R-squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination.
+
+Q: What is a residual?
+A: Is the difference between the observed value and the estimated value of the quantity of interest.
+
+Q: What is boosting when referring to machine learning algorithms?
+A: Boosting refers to a whole class of machine learning algorithms that are built on taking a weak model and reusing it enough times so that it becomes a strong one.
