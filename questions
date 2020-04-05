@@ -49,7 +49,7 @@ A: No, you should be aware to the fact that a time series is not randomly distri
 Q: What is the process of adding tunning parameters to a model to induce smothness in order to prevent overfitting?
 A: Regularisation
 
-Q: How is the creator of GANs architecture?
+Q: Who is the creator of GANs architecture?
 A: Ian Goodfellow
 
 Q: What two parameters defined a normal distribution?
@@ -65,7 +65,7 @@ Q: What is count encoding?
 A: Count encoding replaces each categorical value with the number of times it appears in the dataset.
 
 Q: What is one hot encoding?
-A:
+A: A sparse vector in which: One element is set to 1 and all other elements are set to 0.
 
 Q: What is target encoding?
 A: Target encoding replaces a categorical value with the average value of the target for that value of the feature.
@@ -99,3 +99,90 @@ A: Is the difference between the observed value and the estimated value of the q
 
 Q: What is boosting when referring to machine learning algorithms?
 A: Boosting refers to a whole class of machine learning algorithms that are built on taking a weak model and reusing it enough times so that it becomes a strong one.
+
+Q: What is AdaGrad?
+A: A sophisticated gradient descent algorithm that rescales the gradients of each parameter, effectively giving each parameter an independent learning rate.
+
+Q: Explain what is bucketing.
+A: Converting a (usually continuous) feature into multiple binary features called buckets or bins, typically based on value range.
+
+Q: How many centroids a k-means algorithm with k = 3 would find?
+A: 3
+
+Q: Which ones are two actors in a convolutional operation?
+A: Convulutional filter and a slice of an input matrix.
+
+Q: What is the difference between a dense and a sparse feature?
+A: A dense feature is one in which most values are non-zero in contrast with a sparse one where most values are zeros or empty.
+
+Q: What is dimensionality reduction?
+A: It is the process of reducing the number of variables under consideration by obtaining a set of principal variables.
+
+Q: What is downsampling in the context of class-imbalanced dataset?
+A: Training on a disproportionately low percentage of over-represented class examples in order to improve model training on under-represented classes.
+
+Q: How does dropout regularization works in deep learning?
+A: Dropout regularization works by removing a random selection of a fixed number of the units in a network layer for a single gradient step.
+
+Q: 	What is early stopping?
+A: A method for regularization that involves ending model training before training loss finishes decreasing. In early stopping, you end model training when the loss on a validation dataset starts to increase.
+
+Q: What is an epoch?
+A: A full training pass over the entire dataset such that each example has been seen once.
+
+Q: What is a batch?
+A: Number of training samples in 1 Forward/1 Backward pass.
+
+Q: What is a false negative?
+A: An example in which the model mistakenly predicted the negative class.
+
+Q: What is a false positive?
+A: An example in which the model mistakenly predicted the positive class.
+
+Q: Which are the two components of a Generative Adversarial Network?
+A: A generator and a discriminator
+
+A: What is the function of the generator in a GAN?
+Q: It creates new examples.
+
+A: What is the function of the discriminator in a GAN?
+Q: Determine whether examples are real or fake.
+
+A: What does gradient descent tries to minimize?
+Q: A loss function.
+
+Q: Logistic regression is usefull for estimating continuous variables?
+A: No.
+
+A: LeCun, Cortes, and Burges compiled a very famous dataset containing 60000 images of handwritten digits. What is the name of this dataset?
+Q: MNIST
+
+Q: Values distant from most other values.
+A: Outliers.
+
+Q: Creating a model that matches the training data so closely that the model fails to make correct predictions on new data.
+A: Overfitting.
+
+Q: Precision is the rate between?
+A: True Positives / (True Positives + False Positives)
+
+Q: Explain the basic concept of random forest
+A: An ensemble approach to finding the decision tree that best fits the training data by creating many decision trees and then determining the "average" one. 
+
+Q: What does random mean in the random forest term?
+A: The "random" part of the term refers to building each of the decision trees from a random selection of features.
+
+Q: If someone ask you: Out of all the possible positive labels, how many did the model correctly identify? Which metric should you calculate?
+A: Recall
+
+Q: Which activation function follows these rules: If input is negative or zero, output is 0 and if input is positive, output is equal to input.
+A: Rectified Linear Unit (ReLU)
+
+Q: Explain what a softmax function does?
+A: Provides probabilities for each possible class in a multi-class classification model. The probabilities add up to exactly 1.0
+
+Q: What does stationarity in a dataset means?
+A: A property of data in a dataset, in which the data distribution stays constant across one or more dimensions. Most commonly, that dimension is time.
+
+Q: Producing a model with poor predictive ability because the model hasn't captured the complexity of the training data.
+A: Underfitting.
