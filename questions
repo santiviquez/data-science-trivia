@@ -1,7 +1,7 @@
 Q: What is the generalization of the median?
 A: Quantile
 
-Q: What is the difference between ‘“long” and “wide” format data?
+Q: What is the difference between “long” and “wide” format data?
 A: Wide: categorical data is grouped in a single row, long: each row is an observation belonging to a particular category.
 
 Q: Technique used to sample based on a probability where each sample unit is a collection of a cluster element
@@ -186,3 +186,52 @@ A: A property of data in a dataset, in which the data distribution stays constan
 
 Q: Producing a model with poor predictive ability because the model hasn't captured the complexity of the training data.
 A: Underfitting.
+
+Q: What is supervised learning?
+
+Q: What is unsupervised learning?
+
+Q: What is the difference between MSE and RMSE?
+
+Q: What happens to our linear regression model if we have three columns in our data: x, y, z - and z is a sum of x and y?
+
+Q: Is logistic regression a linear model? Why?
+A: Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters. 
+
+Q: What is the difference between precision and recall?
+
+Q: What is F1-score?
+
+Q: What is the difference between stochastic gradient descent and the usual gradient descent?
+
+Q: Which regularization technique penalizes the sum of absolute value of weights? L1 or L2?
+A: L1
+
+Q: Which regularization technique penalizes the sum of square weights? L1 or L2?
+A: L2
+
+Q: L1 regularization is also called?
+A: Lasso or L1 norm.
+
+Q: L2 regularization is also called?
+A: Ridge.
+
+Q: Can we have both L1 and L2 regularization components in a linear model? 
+A: Yes, it is called Elastic net regularization.
+
+Q: What is Elastic net regularization?
+A: It is reagularization technique that linealy combines L1 and L2 penalties.
+
+Q: What if we set all the weights of a neural network to 0?
+A: The equations of the learning algorithm would fail to make any changes to the network weights, and the model will be stuck.
+
+Q: What is learning rate?
+
+Q: What happens when the learning rate is too large? Too small?
+
+Q: What is transfer learning?
+
+Q: What is TF-IDF?
+
+Q: What is unsupervised learning?
+
