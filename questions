@@ -47,7 +47,7 @@ Q: Would you use k-fold cross validation on time series data? Explain.
 A: No, you should be aware to the fact that a time series is not randomly distributed data.
 
 Q: What is the process of adding tunning parameters to a model to induce smothness in order to prevent overfitting?
-A: Regularisation
+A: Regularization
 
 Q: Who is the creator of GANs architecture?
 A: Ian Goodfellow
@@ -196,7 +196,8 @@ Q: What is the difference between MSE and RMSE?
 Q: What happens to our linear regression model if we have three columns in our data: x, y, z - and z is a sum of x and y?
 
 Q: Is logistic regression a linear model? Why?
-A: Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters. 
+A: Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters.
+C: C: @Al_Grigor
 
 Q: What is the difference between precision and recall?
 
@@ -224,14 +225,60 @@ A: It is reagularization technique that linealy combines L1 and L2 penalties.
 
 Q: What if we set all the weights of a neural network to 0?
 A: The equations of the learning algorithm would fail to make any changes to the network weights, and the model will be stuck.
+C: @Al_Grigor
 
 Q: What is learning rate?
+A: Is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function
 
-Q: What happens when the learning rate is too large? Too small?
+Q: What happens when the learning rate is too large?
+A: Can accelerate the training. However, it is possible that we “shoot” too far and miss the minimum of the function that we want to optimize.
+C: @Al_Grigor
+
+Q: What happens when the learning rate is too small?
+A: Takes more time to train but it is possible to find a more precise minimum. The downside can be that the solution is stuck in a local minimum.
+C: @Al_Grigor
 
 Q: What is transfer learning?
 
 Q: What is TF-IDF?
+A: Term Frequency (TF) is a scoring of the frequency of the word in the current document. Inverse Document Frequency(IDF) is a scoring of how rare the word is across documents.
+C: @Al_Grigor
 
 Q: What is unsupervised learning?
+A: Unsupervised learning aims to detect paterns in data where no labels are given.
 
+Q: Does feature selection tends to increase overfitting?
+A: No. It actually could help to reduce overfitting.
+
+Q: The normal distribution derives its importance from wich famous theorem?
+A: Central Limit Theorem.
+
+Q: Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R-squared are metrics for evaluation which type of models?
+A: Regression models.
+
+Q: What does MSE mean?
+A: Mean Square Error.
+
+Q: What does RMSE mean?
+A: Root Mean Square Error.
+
+Q: Model simplification tends to decrease the bias and increase the variance which leads to underfitting. True or False?
+A: False. Model simplification decreases the variance but increases the bias.
+
+Q: Model complexity tends to decrease the bias and increase the variance which leads to overfitting. True or False?
+A: True.
+
+Q: What is overfitting?
+A: When your model perform very well on your training set but can’t generalize the test set, because it adjusted a lot to the training set.
+C: @Al_Grigor
+
+Q: Accuracy, Precision, Recall, F1 score, ... are metrics to evaluate which types of models?
+A: Classification models.
+
+Q: What is the PR (precision-recall) curve?
+A: A precision-recall curve (or PR Curve) is a plot of the precision (y-axis) and the recall (x-axis) for different probability thresholds.
+C: @Al_Grigor
+
+Q: Can we use L1 regularization for feature selection?
+A: Yes, because the nature of L1 regularization will lead to sparse coefficients of features. Feature selection can be done by keeping only features with non-zero coefficients.
+C: @Al_Grigor 
