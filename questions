@@ -124,8 +124,6 @@ A: Training on a disproportionately low percentage of over-represented class exa
 Q: How does dropout regularization works in deep learning?
 A: Dropout regularization works by removing a random selection of a fixed number of the units in a network layer for a single gradient step.
 
-
-
 Q: 	What is early stopping?
 A: A method for regularization that involves ending model training before training loss finishes decreasing. In early stopping, you end model training when the loss on a validation dataset starts to increase.
 
@@ -323,3 +321,8 @@ A: Singular Value Decomposition (SVD), Principal Component Analysis (PCA), Linea
 Q: What is precision and recall at k?
 A: Precision at k and recall at k are evaluation metrics for ranking algorithms.
 C: @Al_Grigor
+
+Q: What is a time series?
+A: A time series is a set of observations ordered in time usually collected at regular intervals.
+C: @Al_Grigor
+
