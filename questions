@@ -124,6 +124,8 @@ A: Training on a disproportionately low percentage of over-represented class exa
 Q: How does dropout regularization works in deep learning?
 A: Dropout regularization works by removing a random selection of a fixed number of the units in a network layer for a single gradient step.
 
+
+
 Q: 	What is early stopping?
 A: A method for regularization that involves ending model training before training loss finishes decreasing. In early stopping, you end model training when the loss on a validation dataset starts to increase.
 
@@ -169,7 +171,7 @@ A: True Positives / (True Positives + False Positives)
 Q: Explain the basic concept of random forest
 A: An ensemble approach to finding the decision tree that best fits the training data by creating many decision trees and then determining the "average" one. 
 
-Q: What does random mean in the random forest term?
+Q: What does random means in the random forest term?
 A: The "random" part of the term refers to building each of the decision trees from a random selection of features.
 
 Q: If someone ask you: Out of all the possible positive labels, how many did the model correctly identify? Which metric should you calculate?
@@ -281,4 +283,43 @@ C: @Al_Grigor
 
 Q: Can we use L1 regularization for feature selection?
 A: Yes, because the nature of L1 regularization will lead to sparse coefficients of features. Feature selection can be done by keeping only features with non-zero coefficients.
-C: @Al_Grigor 
+C: @Al_Grigor
+
+Q: Why do we need activation functions?
+A: The main idea of using neural networks is to learn complex nonlinear functions. The Nonlinearity comes only with the activation function without them we are just stacking up multiple linear layers.
+C: @Al_Grigor
+
+Q: What are the problems with sigmoid as an activation function?
+A: The output of the sigmoid function for large positive or negative numbers is almost zero. From this comes the problem of vanishing gradient.
+C: @Al_Grigor
+
+Q: What is ReLU? How is it better than sigmoid?
+A: ReLU is an activation function and it solves the problem of vanishin gradient since it doesn't saturates on higher values.
+C: @Al_Grigor
+
+Q: What’s pooling in CNN? Why do we need it?
+A: Pooling is a technique to downsample the feature map. It allows layers which receive relatively undistorted versions of the input to learn low level features such as lines.
+C: @Al_Grigor
+
+Q: What is bag of words?
+A: Bag of Words is a representation of text that describes the occurrence of words within a document.
+C: @Al_Grigor
+
+Q: Would you prefer gradient boosting trees model or logistic regression when doing text classification with bag of words?
+A: Usually logistic regression is better because bag of words creates a matrix with large number of columns. For a huge number of columns logistic regression is usually faster than gradient boosting trees.
+C: @Al_Grigor
+
+Q: What is clustering?
+A: Clustering algorithms group objects such that similar feature points are put into the same groups (clusters).
+C: @Al_Grigor
+
+Q: How can we select K for K-means?
+A: Domain knowledge, Elbow method or Average silhouette method.
+C: @Al_Grigor
+
+Q: Name three techniques of dimensionality reduction.
+A: Singular Value Decomposition (SVD), Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Autoencoders, Fourier and Wavelet Transforms.
+
+Q: What is precision and recall at k?
+A: Precision at k and recall at k are evaluation metrics for ranking algorithms.
+C: @Al_Grigor
