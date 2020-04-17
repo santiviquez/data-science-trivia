@@ -1,5 +1,5 @@
 Q: What is the generalization of the median?
-A: Quantile
+A: The Quantile
 
 Q: What is the difference between “long” and “wide” format data?
 A: Wide: categorical data is grouped in a single row, long: each row is an observation belonging to a particular category.
@@ -45,6 +45,9 @@ A: Combining induvidual models together with the purpose of improving the predic
 
 Q: Would you use k-fold cross validation on time series data? Explain.
 A: No, you should be aware to the fact that a time series is not randomly distributed data.
+
+Q: What is a Type I and a Type II error?
+A: Basically Type I errors are the False Positive and Type II error are the False Negative
 
 Q: What is the process of adding tunning parameters to a model to induce smothness in order to prevent overfitting?
 A: Regularization
@@ -326,3 +329,38 @@ Q: What is a time series?
 A: A time series is a set of observations ordered in time usually collected at regular intervals.
 C: @Al_Grigor
 
+Q: Measures how far a set of (random) numbers are spread out from their average value.
+A: Variance
+
+Q: What values could you infer from a boxplot?
+A: Min, 1 quantile, mean, 3 quantile, max and outliers.
+
+Q: Is rotation necessary in PCA?
+A: Yes, rotation is necessary because it maximizes the difference between variance captured by the component.
+
+Q: Why is naive Bayes 'naive'?
+A: Because it assumes that all of the features in a data set are equally important and independent.
+
+Q: Is knn a clustering algorithm?
+A: No. It is and supervised learning method that could be used for clasification and regression problems.
+
+Q: What is the difference between covariance and correlation?
+A: Correlation is the standardized form of covariance.
+
+Q: Is it possible capture the correlation between continuous and categorical variable?
+A: Yes, we can use ANCOVA (analysis of covariance) technique to capture association between continuous and categorical variables.
+
+Q: How is random forest different from Gradient boosting algorithm?
+A: The fundamental difference is, random forest uses bagging technique to make predictions. GBM uses boosting techniques to make predictions.
+
+Q: It is possible to design a Linear regression algorithm using a neural network?
+A: Yes.
+
+Q: If pearson correlation is 0 between two variables can we assume that there isn't any relation between them?
+A: No. Pearson correlation coefficient between 2 variables might be zero even when they have a relationship between them. Example: x and x^2
+
+Q: Which regularization would you use if your model is underfitting?
+A: None, because regualarization in case of overfitting.
+
+Q: Standardisation of features is required before training a Logistic Regression?
+A: No
