@@ -1,482 +1,482 @@
 Q: What is the generalization of the median?
 A: The Quantile
-C: S
+C: Statistics
 
 Q: What is the difference between “long” and “wide” format data?
 A: Wide: categorical data is grouped in a single row, long: each row is an observation belonging to a particular category.
-C: S
+C: Statistics
 
 Q: Technique used to sample based on a probability where each sample unit is a collection of a cluster element
 A: Cluster sampling
-C: S
+C: Statistics
 
 Q: Name three supervised learning algorithms.
-A: Support Vector Machines, Regression, Naive Bayes, Decision Trees, Neural Networks, ect.
-C: ML
+A: Support Vector Machines, Regression, Naive Bayes, Decision Trees, Neural Networks, etc.
+C: Machine Learning
 
 Q: Name three unsupervised learning algorithms.
-A: Clustering, Anomaly Detection, Latent variable models, Neural Networks (Autoencoders), ect.
-C: ML
+A: Clustering, Anomaly Detection, Latent variable models, Neural Networks (Autoencoders), etc.
+C: Machine Learning
 
 Q: What is the type of machine learning algorithms used to draw inferences from labeled data?
-A: Suppervised Learning
-C: ML
+A: Supervised Learning
+C: Machine Learning
 
-Q: What is the type of machine learning algorithms used to draw inferences from data with out labels?
-A: Unsuppervised Learning
-C: ML
+Q: What is the type of machine learning algorithms used to draw inferences from data without labels?
+A: Unsupervised Learning
+C: Machine Learning
 
 Q: Type of backpropagation where we use only a single training example for calculation of the gradient and update parameters.
 A: Stochastic Gradient Descent
-C: DL
+C: Deep Learning
 
 Q: Type of backpropagation where we use the whole dataset to perform a single step.
 A: Batch Gradient Descent
-C: DL
+C: Deep Learning
 
 Q: Type of backpropagation where we use a fixed number of training examples which is lees than the actual dataset to perform a calculation of the gradient
 A: Mini-batch Gradient Descent
-C: DL
+C: Deep Learning
 
 Q: Name three different deep learning frameworks
-A: TensorFlow, PyTorch, Keras, Caffe, ect
-C: DL
+A: TensorFlow, PyTorch, Keras, Caffe, etc.
+C: Deep Learning
 
 Q: Graphical representation of the contrast between true positives and false positives rates at various thresholds.
 A: ROC curve
-C: ML
+C: Machine Learning
 
 Q: Name three types of kernels in SVM:
 A: Linear, polynomial, radical, sigmoid
-C: ML
+C: Machine Learning
 
-Q: What is prunning in a decision tree?
+Q: What is pruning in a decision tree?
 A: When we remove the sub-nodes of the decision tree.
-C: ML
+C: Machine Learning
 
 Q: What is ensemble learning?
-A: Combining induvidual models together with the purpose of improving the predictive power of the model.
-C: ML
+A: Combining individual models together with the purpose of improving the predictive power of the model.
+C: Machine Learning
 
 Q: Would you use k-fold cross validation on time series data? Explain.
 A: No, you should be aware to the fact that a time series is not randomly distributed data.
-C: ML
+C: Machine Learning
 
 Q: What is a Type I and a Type II error?
 A: Basically Type I errors are the False Positive and Type II error are the False Negative
-C: S
+C: Statistics
 
-Q: What is the process of adding tunning parameters to a model to induce smothness in order to prevent overfitting?
+Q: What is the process of adding tuning parameters to a model to induce smoothness in order to prevent overfitting?
 A: Regularization
-C: ML
+C: Machine Learning
 
 Q: Who is the creator of GANs architecture?
 A: Ian Goodfellow
-C: H
+C: History
 
 Q: What two parameters defined a normal distribution?
 A: Its mean and its standard deviation
-C: S
+C: Statistics
 
 Q: In a normal distribution which parameter indicates where the bell is centered?
 A: The mean
-C: S
+C: Statistics
 
 Q: In a normal distribution which parameter indicates how wide is the bell?
 A: The standard deviation
-C: S
+C: Statistics
 
 Q: What is count encoding?
 A: Count encoding replaces each categorical value with the number of times it appears in the dataset.
-C: ML
+C: Machine Learning
 
 Q: What is one hot encoding?
 A: A sparse vector in which: One element is set to 1 and all other elements are set to 0.
-C: ML
+C: Machine Learning
 
 Q: What is target encoding?
 A: Target encoding replaces a categorical value with the average value of the target for that value of the feature.
-C: ML
+C: Machine Learning
 
 Q: What is data leakage?
-A: When information from outside the training dataset is used to create the model. For expample, including any information from the validation or test sets into the model.
-C: ML
+A: When information from outside the training dataset is used to create the model. For example, including any information from the validation or test sets into the model.
+C: Machine Learning
 
-Q: Imagine you are applying a desicion tree based model to a numerical dataset and you run a experiment where you scale the features. What model would give the best results the original or the scaleted one?
+Q: Imagine you are applying a decision tree based model to a numerical dataset and you run a experiment where you scale the features. What model would give the best results the original or the scaleted one?
 A: They should give the same result because tree-based models are scale invariant.
-C: ML
+C: Machine Learning
 
 Q: What is the difference between L1 (Lasso) and L2 (Ridge) regularization)
 A: L1 penalizes the absolute magnitude of the coefficients and L2 penalizes the square of the coefficients.
-C: ML
+C: Machine Learning
 
 Q: What is the difference of and nominal and ordinal feature?
 A: Nominal data assigns names to each data point without placing it in some sort of order, ex: pass, fail. And ordinal data groups data according to some sort of ranking system: it orders the data, ex: grades A, B, C, D, E and F
-C: S
+C: Statistics
 
 Q: What does high and low cardinality mean?
 A: High cardinality refers to columns with values that are very uncommon or unique, example: email addresses, or user names. And low cardinality: refers to columns with few unique values, example: status flags, boolean values.
-C: S
+C: Statistics
 
 Q: What is a confusion matrix?
 A: A confusion matrix lets you see for a given model how your predictions compare with the actual results. It’s a 2x2 grid that has four parts: the number of true positives, false positives, true negatives, and false negatives.
-C: ML
+C: Machine Learning
 
 Q: Confusion Matrix should be used for supervised or unsupervised learning problems?
 A: Supervised
-C: ML
+C: Machine Learning
 
 Q: What is R-squared?
 A: R-squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination.
-C: S
+C: Statistics
 
 Q: What is a residual?
 A: Is the difference between the observed value and the estimated value of the quantity of interest.
-C: S
+C: Statistics
 
 Q: What is boosting when referring to machine learning algorithms?
 A: Boosting refers to a whole class of machine learning algorithms that are built on taking a weak model and reusing it enough times so that it becomes a strong one.
-C: ML
+C: Machine Learning
 
 Q: What is AdaGrad?
 A: A sophisticated gradient descent algorithm that rescales the gradients of each parameter, effectively giving each parameter an independent learning rate.
-C: DL
+C: Deep Learning
 
 Q: Explain what is bucketing.
 A: Converting a (usually continuous) feature into multiple binary features called buckets or bins, typically based on value range.
-C: ML
+C: Machine Learning
 
 Q: How many centroids a k-means algorithm with k = 3 would find?
 A: 3
-C: ML
+C: Machine Learning
 
 Q: Which ones are two actors in a convolutional operation?
-A: Convulutional filter and a slice of an input matrix.
-C: DL
+A: Convolutional filter and a slice of an input matrix.
+C: Deep Learning
 
 Q: What is the difference between a dense and a sparse feature?
 A: A dense feature is one in which most values are non-zero in contrast with a sparse one where most values are zeros or empty.
-C: ML
+C: Machine Learning
 
 Q: What is dimensionality reduction?
 A: It is the process of reducing the number of variables under consideration by obtaining a set of principal variables.
-C: S
+C: Statistics
 
 Q: What is downsampling in the context of class-imbalanced dataset?
 A: Training on a disproportionately low percentage of over-represented class examples in order to improve model training on under-represented classes.
-C: ML
+C: Machine Learning
 
 Q: How does dropout regularization works in deep learning?
 A: Dropout regularization works by removing a random selection of a fixed number of the units in a network layer for a single gradient step.
-C: DL
+C: Deep Learning
 
 Q: What is early stopping?
 A: A method for regularization that involves ending model training before training loss finishes decreasing. In early stopping, you end model training when the loss on a validation dataset starts to increase.
-C: ML
+C: Machine Learning
 
 Q: What is an epoch?
 A: A full training pass over the entire dataset such that each example has been seen once.
-C: DL
+C: Deep Learning
 
 Q: What is a batch?
 A: Number of training samples in 1 Forward/1 Backward pass.
-C: DL
+C: Deep Learning
 
 Q: What is a false negative?
 A: An example in which the model mistakenly predicted the negative class.
-C: S
+C: Statistics
 
 Q: What is a false positive?
 A: An example in which the model mistakenly predicted the positive class.
-C: S
+C: Statistics
 
 Q: Which are the two components of a Generative Adversarial Network?
 A: A generator and a discriminator
-C: DL
+C: Deep Learning
 
 A: What is the function of the generator in a GAN?
 Q: It creates new examples.
-C: DL
+C: Deep Learning
 
 A: What is the function of the discriminator in a GAN?
 Q: Determine whether examples are real or fake.
-C: DL
+C: Deep Learning
 
 A: What does gradient descent tries to minimize?
 Q: A loss function.
-C: DL
+C: Deep Learning
 
-Q: Logistic regression is usefull for estimating continuous variables?
+Q: Logistic regression is useful for estimating continuous variables?
 A: No.
-C: ML
+C: Machine Learning
 
 A: LeCun, Cortes, and Burges compiled a very famous dataset containing 60000 images of handwritten digits. What is the name of this dataset?
 Q: MNIST
-C: H
+C: History
 
 Q: Values distant from most other values.
 A: Outliers.
-C: S
+C: Statistics
 
 Q: Creating a model that matches the training data so closely that the model fails to make correct predictions on new data.
 A: Overfitting.
-C: ML
+C: Machine Learning
 
 Q: Precision is the rate between?
 A: True Positives / (True Positives + False Positives)
-C: S
+C: Statistics
 
 Q: Explain the basic concept of random forest
 A: An ensemble approach to finding the decision tree that best fits the training data by creating many decision trees and then determining the "average" one. 
-C: ML
+C: Machine Learning
 
 Q: What does random means in the random forest term?
 A: The "random" part of the term refers to building each of the decision trees from a random selection of features.
-C: ML
+C: Machine Learning
 
 Q: If someone ask you: Out of all the possible positive labels, how many did the model correctly identify? Which metric should you calculate?
 A: Recall
-C: ML
+C: Machine Learning
 
 Q: Which activation function follows these rules: If input is negative or zero, output is 0 and if input is positive, output is equal to input.
 A: Rectified Linear Unit (ReLU)
-C: DL
+C: Deep Learning
 
 Q: Explain what a softmax function does?
 A: Provides probabilities for each possible class in a multi-class classification model. The probabilities add up to exactly 1.0
-C: DL
+C: Deep Learning
 
 Q: What does stationarity in a dataset means?
 A: A property of data in a dataset, in which the data distribution stays constant across one or more dimensions. Most commonly, that dimension is time.
-C: S
+C: Statistics
 
 Q: Producing a model with poor predictive ability because the model hasn't captured the complexity of the training data.
 A: Underfitting.
-C: ML
+C: Machine Learning
 
 Q: What is supervised learning?
-C: ML
+C: Machine Learning
 
 Q: What is the difference between MSE and RMSE?
-C: S
+C: Statistics
 
 Q: What happens to our linear regression model if we have three columns in our data: x, y, z - and z is a sum of x and y?
-C: ML
+C: Machine Learning
 
 Q: Is logistic regression a linear model? Why?
 A: Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: What is the difference between precision and recall?
-C: ML
+C: Machine Learning
 
 Q: What is F1-score?
-C: ML
+C: Machine Learning
 
 Q: What is the difference between stochastic gradient descent and the usual gradient descent?
-C: DL
+C: Deep Learning
 
 Q: Which regularization technique penalizes the sum of absolute value of weights? L1 or L2?
 A: L1
-C: ML
+C: Machine Learning
 
 Q: Which regularization technique penalizes the sum of square weights? L1 or L2?
 A: L2
-C: ML
+C: Machine Learning
 
 Q: L1 regularization is also called?
 A: Lasso or L1 norm.
-C: ML
+C: Machine Learning
 
 Q: L2 regularization is also called?
 A: Ridge.
-C: ML
+C: Machine Learning
 
 Q: Can we have both L1 and L2 regularization components in a linear model? 
 A: Yes, it is called Elastic net regularization.
-C: ML
+C: Machine Learning
 
 Q: What is Elastic net regularization?
-A: It is reagularization technique that linealy combines L1 and L2 penalties.
-C: ML
+A: It is regularization technique that linearly combines L1 and L2 penalties.
+C: Machine Learning
 
 Q: What if we set all the weights of a neural network to 0?
 A: The equations of the learning algorithm would fail to make any changes to the network weights, and the model will be stuck.
-C: DL
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What is learning rate?
 A: Is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function
-C: DL
+C: Deep Learning
 
 Q: What happens when the learning rate is too large?
 A: Can accelerate the training. However, it is possible that we “shoot” too far and miss the minimum of the function that we want to optimize.
-C: DL
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What happens when the learning rate is too small?
 A: Takes more time to train but it is possible to find a more precise minimum. The downside can be that the solution is stuck in a local minimum.
-C: DL
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What is transfer learning?
-C: DL
+C: Deep Learning
 
 Q: What is TF-IDF?
 A: Term Frequency (TF) is a scoring of the frequency of the word in the current document. Inverse Document Frequency(IDF) is a scoring of how rare the word is across documents.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: What is unsupervised learning?
-A: Unsupervised learning aims to detect paterns in data where no labels are given.
-C: ML
+A: Unsupervised learning aims to detect patterns in data where no labels are given.
+C: Machine Learning
 
 Q: Does feature selection tends to increase overfitting?
 A: No. It actually could help to reduce overfitting.
-C: ML
+C: Machine Learning
 
-Q: The normal distribution derives its importance from wich famous theorem?
+Q: The normal distribution derives its importance from which famous theorem?
 A: Central Limit Theorem.
-C: S
+C: Statistics
 
 Q: Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R-squared are metrics for evaluation which type of models?
 A: Regression models.
-C: ML
+C: Machine Learning
 
 Q: What does MSE mean?
 A: Mean Square Error.
-C: S
+C: Statistics
 
 Q: What does RMSE mean?
 A: Root Mean Square Error.
-C: S
+C: Statistics
 
 Q: Model simplification tends to decrease the bias and increase the variance which leads to underfitting. True or False?
 A: False. Model simplification decreases the variance but increases the bias.
-C: ML
+C: Machine Learning
 
 Q: Model complexity tends to decrease the bias and increase the variance which leads to overfitting. True or False?
 A: True.
-C: ML
+C: Machine Learning
 
 Q: What is overfitting?
 A: When your model perform very well on your training set but can’t generalize the test set, because it adjusted a lot to the training set.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: Accuracy, Precision, Recall, F1 score, ... are metrics to evaluate which types of models?
 A: Classification models.
-C: ML
+C: Machine Learning
 
 Q: What is the PR (precision-recall) curve?
 A: A precision-recall curve (or PR Curve) is a plot of the precision (y-axis) and the recall (x-axis) for different probability thresholds.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: Can we use L1 regularization for feature selection?
 A: Yes, because the nature of L1 regularization will lead to sparse coefficients of features. Feature selection can be done by keeping only features with non-zero coefficients.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: Why do we need activation functions?
 A: The main idea of using neural networks is to learn complex nonlinear functions. The Nonlinearity comes only with the activation function without them we are just stacking up multiple linear layers.
-C: DL
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What are the problems with sigmoid as an activation function?
 A: The output of the sigmoid function for large positive or negative numbers is almost zero. From this comes the problem of vanishing gradient.
-C: DL
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What is ReLU? How is it better than sigmoid?
-A: ReLU is an activation function and it solves the problem of vanishin gradient since it doesn't saturates on higher values.
-C: DL
+A: ReLU is an activation function and it solves the problem of vanishing gradient since it doesn't saturates on higher values.
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What’s pooling in CNN? Why do we need it?
 A: Pooling is a technique to downsample the feature map. It allows layers which receive relatively undistorted versions of the input to learn low level features such as lines.
-C: DL
+C: Deep Learning
 S: @Al_Grigor
 
 Q: What is bag of words?
 A: Bag of Words is a representation of text that describes the occurrence of words within a document.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: Would you prefer gradient boosting trees model or logistic regression when doing text classification with bag of words?
 A: Usually logistic regression is better because bag of words creates a matrix with large number of columns. For a huge number of columns logistic regression is usually faster than gradient boosting trees.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: What is clustering?
 A: Clustering algorithms group objects such that similar feature points are put into the same groups (clusters).
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: How can we select K for K-means?
 A: Domain knowledge, Elbow method or Average silhouette method.
-C: S
+C: Statistics
 S: @Al_Grigor
 
 Q: Name three techniques of dimensionality reduction.
 A: Singular Value Decomposition (SVD), Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Autoencoders, Fourier and Wavelet Transforms.
-C: S
+C: Statistics
 
 Q: What is precision and recall at k?
 A: Precision at k and recall at k are evaluation metrics for ranking algorithms.
-C: S
+C: Statistics
 S: @Al_Grigor
 
 Q: What is a time series?
 A: A time series is a set of observations ordered in time usually collected at regular intervals.
-C: ML
+C: Machine Learning
 S: @Al_Grigor
 
 Q: Measures how far a set of (random) numbers are spread out from their average value.
 A: Variance
-C: S
+C: Statistics
 
 Q: What values could you infer from a boxplot?
 A: Min, 1 quantile, mean, 3 quantile, max and outliers.
-C: S
+C: Statistics
 
 Q: Is rotation necessary in PCA?
 A: Yes, rotation is necessary because it maximizes the difference between variance captured by the component.
-C: S
+C: Statistics
 
 Q: Why is naive Bayes 'naive'?
 A: Because it assumes that all of the features in a data set are equally important and independent.
-C: ML
+C: Machine Learning
 
 Q: Is KNN a clustering algorithm?
-A: No. It is and supervised learning method that could be used for clasification and regression problems.
-C: ML
+A: No. It is and supervised learning method that could be used for classification and regression problems.
+C: Machine Learning
 
 Q: What is the difference between covariance and correlation?
 A: Correlation is the standardized form of covariance.
-C: S
+C: Statistics
 
 Q: Is it possible capture the correlation between continuous and categorical variable?
 A: Yes, we can use ANCOVA (analysis of covariance) technique to capture association between continuous and categorical variables.
-C: S
+C: Statistics
 
 Q: How is random forest different from gradient boosting algorithm?
 A: The fundamental difference is, random forest uses bagging technique to make predictions. GBM uses boosting techniques to make predictions.
-C: ML
+C: Machine Learning
 
 Q: It is possible to design a Linear regression algorithm using a neural network?
 A: Yes.
-C: ML
+C: Machine Learning
 
 Q: If pearson correlation is 0 between two variables can we assume that there isn't any relation between them?
 A: No. Pearson correlation coefficient between 2 variables might be zero even when they have a relationship between them. Example: x and x^2
-C: S
+C: Statistics
 
 Q: Which regularization would you use if your model is underfitting?
-A: None, because regualarization in case of overfitting.
-C: ML
+A: None, because regularization in case of overfitting.
+C: Machine Learning
 
 Q: Standardisation of features is required before training a Logistic Regression?
 A: No
-C: ML
+C: Machine Learning
