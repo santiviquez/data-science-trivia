@@ -170,7 +170,7 @@ Q: How does dropout regularization works in deep learning?
 A: Dropout regularization works by removing a random selection of a fixed number of the units in a network layer for a single gradient step.
 C: DL
 
-Q: 	What is early stopping?
+Q: What is early stopping?
 A: A method for regularization that involves ending model training before training loss finishes decreasing. In early stopping, you end model training when the loss on a validation dataset starts to increase.
 C: ML
 
