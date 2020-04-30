@@ -1,4 +1,4 @@
-Q: What is the generalization of the median?
+x What is the generalization of the median?
 A: The Quantile
 C: Statistics
 
@@ -485,11 +485,11 @@ Q: The least squares method was published by a famous french mathematician calle
 A: Adrien-Marie Legendre
 C: History
 
-Q: In 1812 Laplace publishes "Théorie Analytique des Probabilités" in which he defines a famous theorem. Which theorem was it?
+Q: In 1812 Laplace published "Théorie Analytique des Probabilités" in which he defines a famous theorem. Which theorem was it?
 A: Bayes' Theorem.
 C: History
 
-Q: Andrey Markov first describes techniques he used to analyse a poem. Later this thechniques become known as Markov chains. True or False.
+Q: Andrey Markov first describes techniques he used to analyse a poem. Later this techniques become known as Markov chains. True or False.
 A: True
 C: History
 
@@ -501,15 +501,15 @@ Q: Who invented the perceptron?
 A: Frank Rosenblatt. Bonus: The invention of the perceptron generated a great deal of excitement and was widely covered in the media.
 C: History
 
-Q: In 1970 Seppo Linnainmaa publishes the general method for automatic differentiation. This corresponds to the modern version of:
+Q: In 1970 Seppo Linnainmaa published the general method for automatic differentiation. This corresponds to the modern version of:
 A: Backpropagation
 C: History
 
-Q: In which decade does Tin Kam Ho publishes a paper describing random decision forests?
+Q: In which decade does Tin Kam Ho published a paper describing random decision forests?
 A: 90s (1995)
 C: History
 
-Q: In 1995 Corinna Cortes and Vladimir Vapnik publish their work explaining a new suppervised learning algorihtm called:
+Q: In 1995 Corinna Cortes and Vladimir Vapnik publish their work explaining a new supervised learning algorithm called:
 A: Support Vector Machines
 C: History
 
@@ -557,7 +557,7 @@ Q: How is the creator of Keras?
 A: François Chollet
 C: History
 
-Q: PyTorch was primarly developed by which company?
+Q: PyTorch was primarily developed by which company?
 A: Facebook
 C: History
 
@@ -581,7 +581,7 @@ Q: Who are known as the "Good Parents of AI"
 A: Geoffrey Hinton, Yann LeCun, and Yoshua Bengio
 C: History
 
-Q: Does mean inputation takes into account feature correlation?
+Q: Does mean imputation takes into account feature correlation?
 A: No
 C: Statistics
 
@@ -601,6 +601,6 @@ Q: What are confounding variables?
 A: Is a variable that influences both the dependent variable and the independent variable, causing a spurious association.
 C: Statistics
 
-Q: How Interquatile Range is calculated?
+Q: How Interquartile Range is calculated?
 A: Q3 - Q1
 C: Statistics
