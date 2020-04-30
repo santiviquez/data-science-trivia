@@ -70,7 +70,7 @@ Q: What is the process of adding tuning parameters to a model to induce smoothne
 A: Regularization
 C: Machine Learning
 
-Q: Who is the creator of GANs architecture?
+Q: Who is the creator of the GANs architecture?
 A: Ian Goodfellow
 C: History
 
@@ -480,3 +480,127 @@ C: Machine Learning
 Q: Standardisation of features is required before training a Logistic Regression?
 A: No
 C: Machine Learning
+
+Q: The least squares method was published by a famous french mathematician called.
+A: Adrien-Marie Legendre
+C: History
+
+Q: In 1812 Laplace publishes "Théorie Analytique des Probabilités" in which he defines a famous theorem. Which theorem was it?
+A: Bayes' Theorem.
+C: History
+
+Q: Andrey Markov first describes techniques he used to analyse a poem. Later this thechniques become known as Markov chains. True or False.
+A: True
+C: History
+
+Q: In 1951 Marvin Minsky and Dean Edmonds conceived what is known as the firts neural network machine. What is it's name?
+A: SNARC
+C: History
+
+Q: Who invented the perceptron?
+A: Frank Rosenblatt. Bonus: The invention of the perceptron generated a great deal of excitement and was widely covered in the media.
+C: History
+
+Q: In 1970 Seppo Linnainmaa publishes the general method for automatic differentiation. This corresponds to the modern version of:
+A: Backpropagation
+C: History
+
+Q: In which decade does Tin Kam Ho publishes a paper describing random decision forests?
+A: 90s (1995)
+C: History
+
+Q: In 1995 Corinna Cortes and Vladimir Vapnik publish their work explaining a new suppervised learning algorihtm called:
+A: Support Vector Machines
+C: History
+
+Q: What was the name of the first computer that beat against the the world champion at chess?
+A: Deep Blue
+C: History
+
+Q: Who invented the LSTM architecture in deep learning?
+A: Sepp Hochreiter and Jürgen Schmidhuber in 1997
+C: History
+
+Q: When was Torch released?
+A: 2002
+C: History
+
+Q: Who envisioned and created the ImageNet dataset?
+A: Fei-Fei Li
+C: History
+
+Q: What is the name of the computer that beat a professional player at Go?
+A: AlphaGo
+C: History
+
+Q: Which computer scientists received the Turing Award for their contributions in deep learning?
+A: Yoshua Bengio, Geoffrey Hinton, and Yann LeCun
+C: History
+
+Q: When was the nearest neighbor algorithm was created?
+A: 1967
+C: History
+
+Q: When was the Turing Test created?
+A: 1950
+C: History
+
+Q: How coined the term deep learning in 2006?
+A: Geoffrey Hinton
+C: History
+
+Q: When was TensorFlow launched?
+A: 2015
+C: History
+
+Q: How is the creator of Keras?
+A: François Chollet
+C: History
+
+Q: PyTorch was primarly developed by which company?
+A: Facebook
+C: History
+
+Q: The R language was designed by statisticians?
+A: Yes
+C: History
+
+Q: Who are credited by the creation of R?
+A: Ross Ihaka and Robert Gentleman
+C: History
+
+Q: In 1989 Christopher Watkins published his PhD thesis “Learning from Delayed Rewards” where he introduced the concept of:
+A: Q-learning
+C: History
+
+Q: Who is known of the founding father of convolutional nets?
+A: Yann LeCun
+C: History
+
+Q: Who are known as the "Good Parents of AI"
+A: Geoffrey Hinton, Yann LeCun, and Yoshua Bengio
+C: History
+
+Q: Does mean inputation takes into account feature correlation?
+A: No
+C: Statistics
+
+Q: Give 3 techniques for handling missing values.
+A: Delete rows with missing data, Imputation, Predicting the missing values.
+C: Statistics
+
+Q: What is the Law of Large Numbers?
+A: Is a theory that states that as the number of trials increases, the average of the result will become closer to the expected value.
+C: Statistics
+
+Q: What is Survivorship bias?
+A: Is the logical error of concentrating on the people or things that made it past some selection process and overlooking those that did not.
+C: Statistics
+
+Q: What are confounding variables?
+A: Is a variable that influences both the dependent variable and the independent variable, causing a spurious association.
+C: Statistics
+
+Q: How Interquatile Range is calculated?
+A: Q3 - Q1
+C: Statistics
