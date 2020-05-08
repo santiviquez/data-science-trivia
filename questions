@@ -608,3 +608,19 @@ C: Statistics
 Q: Was Bayes's Theorem published after his death?
 A: Yes. The underpinnings of Bayes' Theorem was published 2 years after his death (1763) and was until 1812 that Laplace published it as we know it today. 49 years later!
 C: History
+
+Q: What is the difference between online and batch Learning?
+A: Online: you would use the "most recent" sample at each iteration. Batch: Learning over groups of patterns.
+C: Machine Learning
+
+Q: Bagging stands for?
+A: Bootstrap Aggregation
+C: Machine Learning
+
+Q: What is the difference between boosting and bagging?
+A: In bagging we take boostrap samples of the data (with replacement) and each sample trains a weak learner. And boosting uses all data to train each learner and then average the result using a weighted average approach.
+C: Machine Learning
+
+Q: What is the meaning and calculation of ACF and PACF?
+
+Q: How does XGBoost handle the bias-variance trade-off?
