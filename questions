@@ -474,7 +474,7 @@ A: No. Pearson correlation coefficient between 2 variables might be zero even wh
 C: Statistics
 
 Q: Which regularization would you use if your model is underfitting?
-A: None, because regularization in case of overfitting.
+A: None, because regularization is used in case of overfitting.
 C: Machine Learning
 
 Q: Standardisation of features is required before training a Logistic Regression?
@@ -621,6 +621,20 @@ Q: What is the difference between boosting and bagging?
 A: In bagging we take boostrap samples of the data (with replacement) and each sample trains a weak learner. And boosting uses all data to train each learner and then average the result using a weighted average approach.
 C: Machine Learning
 
-Q: What is the meaning and calculation of ACF and PACF?
+Q: What is autocorrelation?
+A: Is the correlation of a signal with a delayed copy of itself as a function of delay.
+C: Statistics
 
-Q: How does XGBoost handle the bias-variance trade-off?
+Q: Explain what is Bias-Variance tradeoff?
+A: Usually models with low bias have high variance and vice versa.
+
+Q: High bias can cause an algorithm to underfit? True or False?
+A: True
+C: Machine Learning
+
+Q: High variance can cause an algorithm to overfit? True of False?
+A: True
+C: Machine Learning
+
+Q: What is variance in the context of Machine Learning?
+A: Is a type of error that occurs due to a model's sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data.
