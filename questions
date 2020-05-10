@@ -638,3 +638,4 @@ C: Machine Learning
 
 Q: What is variance in the context of Machine Learning?
 A: Is a type of error that occurs due to a model's sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data.
+C: Machine Learning
