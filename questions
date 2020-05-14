@@ -256,22 +256,40 @@ C: Machine Learning
 
 Q: What is supervised learning?
 C: Machine Learning
+A: Is the machine learning task of learning a function that maps an input to an output based on examples of input-output pairs.
 
-Q: What is the difference between MSE and RMSE?
+Q: What is MSE?
 C: Statistics
+A: MSE stands for Mean Squared Error. And is a measure of how close a fitted line is to data points by measuring the average squared of the errors.
+
+Q: What is RMSE?
+C: Statistics
+A: RMSE stands for Root Mean Squared Error. Is the squared root of MSE.
 
 Q: What happens to our linear regression model if we have three columns in our data: x, y, z - and z is a sum of x and y?
 C: Machine Learning
+A: We would not be able to perform the resgression. Beacuse z is linear dependent of x and y so when performing the regression 𝑋𝑇𝑋 would be a singular (not invertible) matrix.
+S: @Al_Grigor
 
 Q: Is logistic regression a linear model? Why?
 A: Logistic regression is considered a generalized linear model because the outcome always depends on the sum of the inputs and parameters.
 C: Machine Learning
 S: @Al_Grigor
 
-Q: What is the difference between precision and recall?
+Q: What is precision?
+A: Precision is the number of the correct predictions of the positive class divided by the all the predicted positive class. TP/(TP + FP)
+C: Machine Learning
+
+Q: What is recall?
+A: Recall is the number of the correct predictions of the positive class divided by the number of predictions that should have been classified in the positive class. TP/(TP + FN)
 C: Machine Learning
 
 Q: What is F1-score?
+A: Is a measure of a test's accuracy. F1-score is the harmonic mean of the precision and recall.
+C: Machine Learning
+
+Q: What is better to have a F1-score equals to 1 or to 0?
+A: F1-score reaches its best value at 1 (perfect precision and recall).
 C: Machine Learning
 
 Q: What is the difference between stochastic gradient descent and the usual gradient descent?
@@ -597,7 +615,7 @@ Q: What is Survivorship bias?
 A: Is the logical error of concentrating on the people or things that made it past some selection process and overlooking those that did not.
 C: Statistics
 
-Q: What are confounding variables?
+Q: What is a confounding variable?
 A: Is a variable that influences both the dependent variable and the independent variable, causing a spurious association.
 C: Statistics
 
