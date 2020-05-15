@@ -338,9 +338,6 @@ A: Takes more time to train but it is possible to find a more precise minimum. T
 C: Deep Learning
 S: @Al_Grigor
 
-Q: What is transfer learning?
-C: Deep Learning
-
 Q: What is TF-IDF?
 A: Term Frequency (TF) is a scoring of the frequency of the word in the current document. Inverse Document Frequency(IDF) is a scoring of how rare the word is across documents.
 C: Machine Learning
