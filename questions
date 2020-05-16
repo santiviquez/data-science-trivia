@@ -75,7 +75,7 @@ A: Ian Goodfellow
 C: History
 
 Q: What two parameters defined a normal distribution?
-A: Its mean and its standard deviation
+A: Its mean and its standard deviation.
 C: Statistics
 
 Q: In a normal distribution which parameter indicates where the bell is centered?
@@ -214,7 +214,7 @@ A: LeCun, Cortes, and Burges compiled a very famous dataset containing 60000 ima
 Q: MNIST
 C: History
 
-Q: Values distant from most other values.
+Q: Values distant from most other values are?
 A: Outliers.
 C: Statistics
 
