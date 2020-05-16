@@ -654,3 +654,43 @@ C: Machine Learning
 Q: What is variance in the context of Machine Learning?
 A: Is a type of error that occurs due to a model's sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data.
 C: Machine Learning
+
+Q: What object did Yann Lecunn use in NIPS 2016 to describe the “layers” of intelligence?
+A: Cake
+C: History
+S: @GokuMohandas
+
+Q: When building your vocabulary set, it’s ok to use the tokens from the entire dataset to reduce the size of your out-of-vocab (OOV) list.
+A: False, any tokens not seen in the training set need to be UNK tokens.
+C: Machine Learning
+S: @GokuMohandas
+
+Q: What defunct deep learning library was published in 2007 by Montreal Institute for Learning Algorithms (MILA)?
+A: Theano
+C: History
+S: @GokuMohandas
+
+Q: What language was the original AlexNet (ILSVRC 2012) written in?
+A: CUDA/C++
+C: History
+S: @GokuMohandas
+
+Q: What was the final score of the 2016 match between Google DeepMind's AlphaGo and Go grandmaster Lee Sedol?
+A: 4-1 (AlphaGo - Sedol)
+C: History
+S: @GokuMohandas
+
+Q: This person’s notable students include Ruslan Salakhutdinov, Ilya Sutskever, and Yann LeCun?
+A: Geoffrey Hinton
+C: History
+S: @GokuMohandas
+
+Q: What was the dimension of all the embedding and sublayers of the original Transformer (Attention is All You Need 2017)?
+A: 512
+C: History
+S: @GokuMohandas
+
+Q: Why did the output dimension of all the embedding and sublayers of original Transformer (Attention is All You Need 2017) need to be the same?
+A: Because of the residual connections
+C: Machine Learning
+S: @GokuMohandas
