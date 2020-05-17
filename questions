@@ -106,8 +106,8 @@ Q: Imagine you are applying a decision tree based model to a numerical dataset a
 A: They should give the same result because tree-based models are scale invariant.
 C: Machine Learning
 
-Q: What is the difference between L1 (Lasso) and L2 (Ridge) regularization)
-A: L1 penalizes the absolute magnitude of the coefficients and L2 penalizes the square of the coefficients.
+Q: What is the difference between L1 (Lasso) and L2 (Ridge) regularization?
+A: L1 penalizes the absolute magnitude of the coefficients while L2 penalizes the square of the coefficients.
 C: Machine Learning
 
 Q: What is the difference of and nominal and ordinal feature?
