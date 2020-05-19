@@ -686,5 +686,5 @@ S: @GokuMohandas
 
 Q: Why did the output dimension of all the embedding and sublayers of original Transformer (Attention is All You Need 2017) need to be the same?
 A: Because of the residual connections.
-C: Machine Learning
+C: Deep Learning
 S: @GokuMohandas
