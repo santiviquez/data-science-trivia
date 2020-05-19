@@ -1,5 +1,5 @@
 Q: What is the generalization of the median?
-A: The Quantile
+A: The Quantile.
 C: Statistics
 
 Q: What is the difference between “long” and “wide” format data?
@@ -7,7 +7,7 @@ A: Wide: categorical data is grouped in a single row, long: each row is an obser
 C: Statistics
 
 Q: Technique used to sample based on a probability where each sample unit is a collection of a cluster element
-A: Cluster sampling
+A: Cluster sampling.
 C: Statistics
 
 Q: Name three supervised learning algorithms.
@@ -19,23 +19,23 @@ A: Clustering, Anomaly Detection, Latent variable models, Neural Networks (Autoe
 C: Machine Learning
 
 Q: What is the type of machine learning algorithms used to draw inferences from labeled data?
-A: Supervised Learning
+A: Supervised Learning.
 C: Machine Learning
 
 Q: What is the type of machine learning algorithms used to draw inferences from data without labels?
-A: Unsupervised Learning
+A: Unsupervised Learning.
 C: Machine Learning
 
 Q: Type of backpropagation where we use only a single training example for calculation of the gradient and update parameters.
-A: Stochastic Gradient Descent
+A: Stochastic Gradient Descent.
 C: Deep Learning
 
 Q: Type of backpropagation where we use the whole dataset to perform a single step.
-A: Batch Gradient Descent
+A: Batch Gradient Descent.
 C: Deep Learning
 
 Q: Type of backpropagation where we use a fixed number of training examples which is lees than the actual dataset to perform a calculation of the gradient
-A: Mini-batch Gradient Descent
+A: Mini-batch Gradient Descent.
 C: Deep Learning
 
 Q: Name three different deep learning frameworks
@@ -43,11 +43,11 @@ A: TensorFlow, PyTorch, Keras, Caffe, etc.
 C: Deep Learning
 
 Q: Graphical representation of the contrast between true positives and false positives rates at various thresholds.
-A: ROC curve
+A: ROC curve.
 C: Machine Learning
 
 Q: Name three types of kernels in SVM:
-A: Linear, polynomial, radical, sigmoid
+A: Linear, polynomial, radical, sigmoid.
 C: Machine Learning
 
 Q: What is pruning in a decision tree?
@@ -63,15 +63,15 @@ A: No, you should be aware to the fact that a time series is not randomly distri
 C: Machine Learning
 
 Q: What is a Type I and a Type II error?
-A: Basically Type I errors are the False Positive and Type II error are the False Negative
+A: Basically Type I errors are the False Positive and Type II error are the False Negative.
 C: Statistics
 
 Q: What is the process of adding tuning parameters to a model to induce smoothness in order to prevent overfitting?
-A: Regularization
+A: Regularization.
 C: Machine Learning
 
-Q: Who is the creator of the GANs architecture?
-A: Ian Goodfellow
+Q: Who is known as the creator of the GANs architecture?
+A: Ian Goodfellow.
 C: History
 
 Q: What two parameters defined a normal distribution?
@@ -79,11 +79,11 @@ A: Its mean and its standard deviation.
 C: Statistics
 
 Q: In a normal distribution which parameter indicates where the bell is centered?
-A: The mean
+A: The mean.
 C: Statistics
 
 Q: In a normal distribution which parameter indicates how wide is the bell?
-A: The standard deviation
+A: The standard deviation.
 C: Statistics
 
 Q: What is count encoding?
@@ -111,7 +111,7 @@ A: L1 penalizes the absolute magnitude of the coefficients while L2 penalizes th
 C: Machine Learning
 
 Q: What is the difference of and nominal and ordinal feature?
-A: Nominal data assigns names to each data point without placing it in some sort of order, ex: pass, fail. And ordinal data groups data according to some sort of ranking system: it orders the data, ex: grades A, B, C, D, E and F
+A: Nominal data assigns names to each data point without placing it in some sort of order, ex: pass, fail. And ordinal data groups data according to some sort of ranking system: it orders the data, ex: grades A, B, C, D, E and F.
 C: Statistics
 
 Q: What does high and low cardinality mean?
@@ -123,7 +123,7 @@ A: A confusion matrix lets you see for a given model how your predictions compar
 C: Machine Learning
 
 Q: Confusion Matrix should be used for supervised or unsupervised learning problems?
-A: Supervised
+A: Supervised.
 C: Machine Learning
 
 Q: What is R-squared?
@@ -191,7 +191,7 @@ A: An example in which the model mistakenly predicted the positive class.
 C: Statistics
 
 Q: Which are the two components of a Generative Adversarial Network?
-A: A generator and a discriminator
+A: A generator and a discriminator.
 C: Deep Learning
 
 A: What is the function of the generator in a GAN?
@@ -211,7 +211,7 @@ A: No.
 C: Machine Learning
 
 A: LeCun, Cortes, and Burges compiled a very famous dataset containing 60000 images of handwritten digits. What is the name of this dataset?
-Q: MNIST
+Q: MNIST dataset.
 C: History
 
 Q: Values distant from most other values are?
@@ -223,7 +223,7 @@ A: Overfitting.
 C: Machine Learning
 
 Q: Precision is the rate between?
-A: True Positives / (True Positives + False Positives)
+A: True Positives / (True Positives + False Positives).
 C: Statistics
 
 Q: Explain the basic concept of random forest
@@ -235,11 +235,11 @@ A: The "random" part of the term refers to building each of the decision trees f
 C: Machine Learning
 
 Q: If someone ask you: Out of all the possible positive labels, how many did the model correctly identify? Which metric should you calculate?
-A: Recall
+A: Recall.
 C: Machine Learning
 
 Q: Which activation function follows these rules: If input is negative or zero, output is 0 and if input is positive, output is equal to input.
-A: Rectified Linear Unit (ReLU)
+A: Rectified Linear Unit (ReLU).
 C: Deep Learning
 
 Q: Explain what a softmax function does?
@@ -254,17 +254,13 @@ Q: Producing a model with poor predictive ability because the model hasn't captu
 A: Underfitting.
 C: Machine Learning
 
-Q: What is supervised learning?
-C: Machine Learning
-A: Is the machine learning task of learning a function that maps an input to an output based on examples of input-output pairs.
-
 Q: What is MSE?
-C: Statistics
 A: MSE stands for Mean Squared Error. And is a measure of how close a fitted line is to data points by measuring the average squared of the errors.
+C: Statistics
 
 Q: What is RMSE?
-C: Statistics
 A: RMSE stands for Root Mean Squared Error. Is the squared root of MSE.
+C: Statistics
 
 Q: What happens to our linear regression model if we have three columns in our data: x, y, z - and z is a sum of x and y?
 C: Machine Learning
@@ -277,11 +273,11 @@ C: Machine Learning
 S: @Al_Grigor
 
 Q: What is precision?
-A: Precision is the number of the correct predictions of the positive class divided by the all the predicted positive class. TP/(TP + FP)
+A: Precision is the number of the correct predictions of the positive class divided by the all the predicted positive class. TP/(TP + FP).
 C: Machine Learning
 
 Q: What is recall?
-A: Recall is the number of the correct predictions of the positive class divided by the number of predictions that should have been classified in the positive class. TP/(TP + FN)
+A: Recall is the number of the correct predictions of the positive class divided by the number of predictions that should have been classified in the positive class. TP/(TP + FN).
 C: Machine Learning
 
 Q: What is F1-score?
@@ -292,15 +288,12 @@ Q: What is better to have a F1-score equals to 1 or to 0?
 A: F1-score reaches its best value at 1 (perfect precision and recall).
 C: Machine Learning
 
-Q: What is the difference between stochastic gradient descent and the usual gradient descent?
-C: Deep Learning
-
 Q: Which regularization technique penalizes the sum of absolute value of weights? L1 or L2?
-A: L1
+A: L1.
 C: Machine Learning
 
 Q: Which regularization technique penalizes the sum of square weights? L1 or L2?
-A: L2
+A: L2.
 C: Machine Learning
 
 Q: L1 regularization is also called?
@@ -325,7 +318,7 @@ C: Deep Learning
 S: @Al_Grigor
 
 Q: What is learning rate?
-A: Is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function
+A: Is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function.
 C: Deep Learning
 
 Q: What happens when the learning rate is too large?
@@ -449,7 +442,7 @@ C: Machine Learning
 S: @Al_Grigor
 
 Q: Measures how far a set of (random) numbers are spread out from their average value.
-A: Variance
+A: Variance.
 C: Statistics
 
 Q: What values could you infer from a boxplot?
@@ -460,7 +453,7 @@ Q: Is rotation necessary in PCA?
 A: Yes, rotation is necessary because it maximizes the difference between variance captured by the component.
 C: Statistics
 
-Q: Why is naive Bayes 'naive'?
+Q: Why is naive Bayes "naive"?
 A: Because it assumes that all of the features in a data set are equally important and independent.
 C: Machine Learning
 
@@ -485,7 +478,7 @@ A: Yes.
 C: Machine Learning
 
 Q: If pearson correlation is 0 between two variables can we assume that there isn't any relation between them?
-A: No. Pearson correlation coefficient between 2 variables might be zero even when they have a relationship between them. Example: x and x^2
+A: No. Pearson correlation coefficient between 2 variables might be zero even when they have a relationship between them. Example: x and x^2.
 C: Statistics
 
 Q: Which regularization would you use if your model is underfitting?
@@ -493,11 +486,11 @@ A: None, because regularization is used in case of overfitting.
 C: Machine Learning
 
 Q: Standardisation of features is required before training a Logistic Regression?
-A: No
+A: No.
 C: Machine Learning
 
 Q: The least squares method was published by a famous french mathematician called.
-A: Adrien-Marie Legendre
+A: Adrien-Marie Legendre.
 C: History
 
 Q: In 1812 Laplace published "Théorie Analytique des Probabilités" in which he defines a famous theorem. Which theorem was it?
@@ -505,11 +498,11 @@ A: Bayes' Theorem.
 C: History
 
 Q: Andrey Markov first describes techniques he used to analyse a poem. Later this techniques become known as Markov chains. True or False.
-A: True
+A: True.
 C: History
 
 Q: In 1951 Marvin Minsky and Dean Edmonds conceived what is known as the firts neural network machine. What is it's name?
-A: SNARC
+A: SNARC.
 C: History
 
 Q: Who invented the perceptron?
@@ -517,23 +510,23 @@ A: Frank Rosenblatt. Bonus: The invention of the perceptron generated a great de
 C: History
 
 Q: In 1970 Seppo Linnainmaa published the general method for automatic differentiation. This corresponds to the modern version of:
-A: Backpropagation
+A: Backpropagation.
 C: History
 
 Q: In which decade does Tin Kam Ho published a paper describing random decision forests?
-A: 90s (1995)
+A: 90s (1995).
 C: History
 
 Q: In 1995 Corinna Cortes and Vladimir Vapnik publish their work explaining a new supervised learning algorithm called:
-A: Support Vector Machines
+A: Support Vector Machines.
 C: History
 
 Q: What was the name of the first computer that beat against the the world champion at chess?
-A: Deep Blue
+A: Deep Blue.
 C: History
 
 Q: Who invented the LSTM architecture in deep learning?
-A: Sepp Hochreiter and Jürgen Schmidhuber in 1997
+A: Sepp Hochreiter and Jürgen Schmidhuber in 1997.
 C: History
 
 Q: When was Torch released?
@@ -541,15 +534,15 @@ A: 2002
 C: History
 
 Q: Who envisioned and created the ImageNet dataset?
-A: Fei-Fei Li
+A: Fei-Fei Li.
 C: History
 
 Q: What is the name of the computer that beat a professional player at Go?
-A: AlphaGo
+A: AlphaGo.
 C: History
 
 Q: Which computer scientists received the Turing Award for their contributions in deep learning?
-A: Yoshua Bengio, Geoffrey Hinton, and Yann LeCun
+A: Yoshua Bengio, Geoffrey Hinton, and Yann LeCun.
 C: History
 
 Q: When was the nearest neighbor algorithm was created?
@@ -561,7 +554,7 @@ A: 1950
 C: History
 
 Q: How coined the term deep learning in 2006?
-A: Geoffrey Hinton
+A: Geoffrey Hinton.
 C: History
 
 Q: When was TensorFlow launched?
@@ -569,35 +562,35 @@ A: 2015
 C: History
 
 Q: How is the creator of Keras?
-A: François Chollet
+A: François Chollet.
 C: History
 
 Q: PyTorch was primarily developed by which company?
-A: Facebook
+A: Facebook.
 C: History
 
 Q: The R language was designed by statisticians?
-A: Yes
+A: Yes.
 C: History
 
 Q: Who are credited by the creation of R?
-A: Ross Ihaka and Robert Gentleman
+A: Ross Ihaka and Robert Gentleman.
 C: History
 
 Q: In 1989 Christopher Watkins published his PhD thesis “Learning from Delayed Rewards” where he introduced the concept of:
-A: Q-learning
+A: Q-learning.
 C: History
 
 Q: Who is known of the founding father of convolutional nets?
-A: Yann LeCun
+A: Yann LeCun.
 C: History
 
 Q: Who are known as the "Good Parents of AI"
-A: Geoffrey Hinton, Yann LeCun, and Yoshua Bengio
+A: Geoffrey Hinton, Yann LeCun, and Yoshua Bengio.
 C: History
 
 Q: Does mean imputation takes into account feature correlation?
-A: No
+A: No.
 C: Statistics
 
 Q: Give 3 techniques for handling missing values.
@@ -617,7 +610,7 @@ A: Is a variable that influences both the dependent variable and the independent
 C: Statistics
 
 Q: How Interquartile Range is calculated?
-A: Q3 - Q1
+A: Q3 - Q1.
 C: Statistics
 
 Q: Was Bayes's Theorem published after his death?
@@ -629,7 +622,7 @@ A: Online: you would use the "most recent" sample at each iteration. Batch: Lear
 C: Machine Learning
 
 Q: Bagging stands for?
-A: Bootstrap Aggregation
+A: Bootstrap Aggregation.
 C: Machine Learning
 
 Q: What is the difference between boosting and bagging?
@@ -642,21 +635,22 @@ C: Statistics
 
 Q: Explain what is Bias-Variance tradeoff?
 A: Usually models with low bias have high variance and vice versa.
+C: Statistics
 
 Q: High bias can cause an algorithm to underfit? True or False?
-A: True
+A: True.
 C: Machine Learning
 
 Q: High variance can cause an algorithm to overfit? True of False?
-A: True
+A: True.
 C: Machine Learning
 
 Q: What is variance in the context of Machine Learning?
 A: Is a type of error that occurs due to a model's sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data.
 C: Machine Learning
 
-Q: What object did Yann Lecunn use in NIPS 2016 to describe the “layers” of intelligence?
-A: Cake
+Q: What object did Yann Lecunn use in NIPS 2016 to describe the "layers" of intelligence?
+A: Cake.
 C: History
 S: @GokuMohandas
 
@@ -666,22 +660,22 @@ C: Machine Learning
 S: @GokuMohandas
 
 Q: What defunct deep learning library was published in 2007 by Montreal Institute for Learning Algorithms (MILA)?
-A: Theano
+A: Theano.
 C: History
 S: @GokuMohandas
 
 Q: What language was the original AlexNet (ILSVRC 2012) written in?
-A: CUDA/C++
+A: CUDA/C++.
 C: History
 S: @GokuMohandas
 
 Q: What was the final score of the 2016 match between Google DeepMind's AlphaGo and Go grandmaster Lee Sedol?
-A: 4-1 (AlphaGo - Sedol)
+A: 4-1 (AlphaGo - Sedol).
 C: History
 S: @GokuMohandas
 
-Q: This person’s notable students include Ruslan Salakhutdinov, Ilya Sutskever, and Yann LeCun?
-A: Geoffrey Hinton
+Q: This person's notable students include Ruslan Salakhutdinov, Ilya Sutskever, and Yann LeCun?
+A: Geoffrey Hinton.
 C: History
 S: @GokuMohandas
 
@@ -691,6 +685,6 @@ C: History
 S: @GokuMohandas
 
 Q: Why did the output dimension of all the embedding and sublayers of original Transformer (Attention is All You Need 2017) need to be the same?
-A: Because of the residual connections
+A: Because of the residual connections.
 C: Machine Learning
 S: @GokuMohandas
