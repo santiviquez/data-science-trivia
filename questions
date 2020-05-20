@@ -688,3 +688,8 @@ Q: Why did the output dimension of all the embedding and sublayers of original T
 A: Because of the residual connections.
 C: Deep Learning
 S: @GokuMohandas
+
+Q: What is the main data structure used in causal modelling?
+A: Graphs! More specifically, directed acyclic graphs.
+C: Machine Learning
+S: @rctatman
