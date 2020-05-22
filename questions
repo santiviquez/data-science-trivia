@@ -695,7 +695,7 @@ C: Machine Learning
 S: @rctatman
 
 Q: What does LSTM means?
-A: Long Short-Term Memory
+A: Long Short-Term Memory.
 C: Deep Learning
 
 Q: Type of layer that tipically has a cell, input gate, output gate and a forget gate?
@@ -715,7 +715,11 @@ A: 0 and 1
 C: Deep Learning
 
 Q: Type of layer that tipically has a reset gate and a output gate?
-A: GRU
+A: GRU layer.
 C: Deep Learning
 
+Q: In 2016 Google’s AlphaGo won four out of five games of Go against Lee Sedol, a professional Go player from South Korea (9 dan rank). What hardware powered the AlphaGo software to victory?
+A: Tensor Processing Unit (TPU)
+C: Deep Learning
+S: @kierisi
 
