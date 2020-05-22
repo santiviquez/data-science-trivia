@@ -693,3 +693,29 @@ Q: What is the main data structure used in causal modelling?
 A: Graphs! More specifically, directed acyclic graphs.
 C: Machine Learning
 S: @rctatman
+
+Q: What does LSTM means?
+A: Long Short-Term Memory
+C: Deep Learning
+
+Q: Type of layer that tipically has a cell, input gate, output gate and a forget gate?
+A: LSTM layer.
+C: Deep Learning
+
+Q: What does GRU means?
+A: Gated Recurrent Unit.
+C: Deep Learning
+
+Q: Tanh function squishes values to be between?
+A: -1 and 1
+C: Deep Learning
+
+Q: Sigmoid squishes values to be between?
+A: 0 and 1
+C: Deep Learning
+
+Q: Type of layer that tipically has a reset gate and a output gate?
+A: GRU
+C: Deep Learning
+
+
